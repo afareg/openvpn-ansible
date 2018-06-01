@@ -1,5 +1,5 @@
 - hosts: vpn
   gather_facts: true
   roles:
-    - {role: openvpn,openvpn_proto: udp, clients: [afareg,ppt],
+    - {role: openvpn,openvpn_proto: udp, clients: [afareg],
                         openvpn_port: 1723}
